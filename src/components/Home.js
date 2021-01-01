@@ -25,6 +25,13 @@ const Home = (props) => {
           >
             Add To Cart
           </button>
+          <button
+            onClick={() => {
+              props.removeToCartHandler();
+            }}
+          >
+            Remove To Cart
+          </button>
         </div>
       </div>
     </div>
